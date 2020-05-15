@@ -7,4 +7,5 @@ class PercepcoesJogador():
     
     Vide documentação sobre dataclasses em python.
     '''
-    pass
+    disposicao_elementos: tuple
+    

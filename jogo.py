@@ -37,6 +37,8 @@ def iniciar_jogo():
         tempo_corrente = ler_tempo()
         jogo.atualizarEstado(tempo_corrente - tempo_de_jogo)
         tempo_de_jogo += tempo_corrente
+        
+    jogo.terminarJogo()
 
 
 if __name__ == '__main__':
